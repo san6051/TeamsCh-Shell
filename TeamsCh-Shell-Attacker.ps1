@@ -3,17 +3,7 @@
 # This project leverages the Microsoft Teams Channel API to achieve command and control (C&C)
 # Version:    1.0.1
 # Author :    @san6051
-# Date   :    24 March 2025
-#
-#
-# Usage:
-#  -token                 Authenticated browser session running on Microsoft Teams
-#  -Inputconversationid   Teams Channel conversation ID for input command
-#  -Outputconversationid  Teams channel conversation ID for the output of the executed command
-#  -time                  The time interval to check for updated commands in the input Teams Channel
-#
-# Notes: Token expiration time is 24 hours by default
-#
+# Date   :    25 March 2025
 #
 ###########################################################################################################
 
