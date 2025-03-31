@@ -8,8 +8,12 @@ This project aims to create a lightweight tool that utilizes the Microsoft Teams
 ![426539136-3773069b-f6eb-4ad1-b089-97b684ade053](https://github.com/user-attachments/assets/a9914060-c6fb-442b-a4ec-6bafd3b53f48)
 
 
+## Why TeamsCh-Shell?
+- Lightweight PowerShell agent with no dependencies
+- Leverage MS Teams Channel API only
+- Not recursively look into MS Teams log files
+- Embed commands directly into messages rather than in images file
 
- 
 ## Usage
 ### Agent
 ```
@@ -85,7 +89,7 @@ TeamsCh-Shell-Agent.ps1 -token "eyJ0eXAiO***Cu9Jp8l3kF70Ug" -Inputconversationid
 ## Disclaim
 san6051 is developed with the intension of using this tool only for educational purpose.
   
-## Reference
+## Credits / Reference
 
 - [convoC2](https://github.com/cxnturi0n/convoC2) by @cxnturi0n
 - [Microsoft-Teams-GIFShell](https://github.com/bobbyrsec/Microsoft-Teams-GIFShell) by @bobbyrsec
