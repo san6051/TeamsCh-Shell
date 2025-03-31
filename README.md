@@ -11,7 +11,6 @@ This project aims to create a lightweight tool that utilizes the Microsoft Teams
 ## Why TeamsCh-Shell?
 - Lightweight PowerShell agent with no dependencies
 - Leverage MS Teams Channel API only
-- Not recursively look into MS Teams log files
 - Embed commands directly into messages rather than in images file
 
 ## Usage
